@@ -5,6 +5,15 @@
     This is my_battleship, the first program that I am going to write on my own
         (although it models a script from codeacademy)
 
+Updates:
+    Completed:
+        none
+    Pending:
+        Instructions on how the board is setup and now to play
+            board size
+            numbers to guess
+        make the 0 list spot respond to an entry of 1. Less confusing user experience
+
 """
 
 #Import randint function from random
@@ -33,8 +42,8 @@ random_col = randint(0, 4)
 board[random_row][random_col] = "X"
 
 #Target location for debugging
-print random_row
-print random_col
+#print random_row
+#print random_col
 
 #Guess where the battleships are
 def guess_entry():
